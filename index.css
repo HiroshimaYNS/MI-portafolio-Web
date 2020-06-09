@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(16, 68, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0auto;
+}
+.header{
+    border: 2px solid rgb(51, 0, 0);
+    background-color: rgb(6, 131, 131);
+}
+.header__menu{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+color: rgb(255, 255, 255);
+padding: 10px ;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+}
+.header__menu a:hover{
+    background-color: rgb(17, 182, 194);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0auto;    
+}
+
+.banner{
+    color: black;
+    background-color: rgb(6, 199, 233);
+}
+.banner .banner__heroe{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-heroe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.portafolio{
+    display: flex;
+    margin: 0px;
+}
+.portafolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px rgb(4, 0, 54);
+    border-radius: 10px;
+    width: 33%;
+}
+.portafolio__box img{
+    border-radius: 10px;
+}
+.portafolio__card{
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio__card button{
+    background-color: seashell;
+    color: rgb(0, 1, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+    .title{
+    border-left: 6px solid white;
+    border-radius: 10px;
+    width: 50%;
+}
+.proyectos{
+    display: flex;
+    margin: 0auto;
+}
+.proyecto__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px rgb(52, 52, 221);
+    border-radius: 10px;
+    width: 50%;
+}
+.proyecto__box img{
+    border-radius: 10px;
+}
+.proyecto__body{
+    box-shadow: 0px -10px 10px 2px aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer{
+    color: black;
+    background-color: brown;
+}
